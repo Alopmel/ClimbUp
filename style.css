@@ -142,15 +142,6 @@ nav ul li a:hover::after{
 
 }
 
-
-.container-section{
-    min-height: 105vh;
-    padding: 0px 0 80px 0;
-    margin-top: -1px;
-    border-top: 2px dashed var(--ems-lightblue);
-    background-image: linear-gradient(rgba(0,0,0,0.2),var(--ems-darkblue));
-}
-
 .header{
     visibility: visible;
     position: relative;
@@ -169,46 +160,19 @@ nav ul li a:hover::after{
 
 /* CONTENT HEADER */
 .container-main{ 
-    background-color:#081a27;
+    background-image: linear-gradient(to bottom, #081a27, #092132, #0a283d, #0b2f49, #0d3655);
     position: relative;
     z-index: 2;
     transform: skew(0,-2deg); 
 }
 
 .section-cards{
-    transform: skew(0,2deg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section:nth-child(1){
-    color:#fff;
-}
-
-section h1{
-    font-size: 60px;
-}
-
-section h2{
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
-section .container-card{
-    display: flex;
-    transform: skew(0,-2deg);
-}
-
-section .container-card .text-card{
-    margin: 50px;
-    padding: 20px;
-    text-align: center;
-}
-
-section .container-card .text-card h3{
+.tittles{
     font-size:  30px;
     text-align: center;
     text-transform: uppercase;
@@ -216,17 +180,17 @@ section .container-card .text-card h3{
     border-top:2px dashed #BFDD3D ;
     padding: .5rem 0;
     display: inline-block;
-    margin-bottom: 2rem;
+    margin: 7rem;
     color:#cb3040;
 }
 
-section .container-card .text-card p{
+.p-subtext{
     font-size: 1.5rem;
     text-transform: uppercase;
     color:#BFDD3D;
     letter-spacing: 2px;
     position: relative;
-    margin-top: 3rem;
+    margin: 3rem 0 7rem 0;
 }
 section .container-card a{
     text-decoration: none;
@@ -234,64 +198,67 @@ section .container-card a{
 
 .img-text-main{
     margin-top: 2rem;
+    text-align: center;
 }
 
 .img-clib{
   width: 150px;
-
+  text-align: center;
 }
 
 .img-shop{
     width: 208px;
- 
+    text-align: center;
   }
 
 .img-blog{
     width: 150px;
 }
 
+a{
+    text-decoration: none;
+}
 /* CONTENT ARTICLES */
 
-/*.container-article{
-    background-color: #BCD474;
+.container-articles{
     position: relative;
     z-index: 2;
-    transform: skew(0,-2deg);
-}*/
+    transform: skew(0,
+-2deg);
+}
 
 .container-tittle{
     text-align: center;
 }
 
-.texts-articles{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #BCD474;
-    position: relative;
-    z-index: 2;
-    transform: skew(0,-2deg);
+.texts-articles{   
+    background-image: linear-gradient(to bottom, #081a27, #092132, #0a283d, #0b2f49, #0d3655);
+    text-align: center;
 }
 
-.tittle-blog{
-    font-size: 30px;
-    text-align: center;
+.p-subtext-articles{
+    font-size: 2rem;
     text-transform: uppercase;
-    border-bottom: 3px dashed #99771f;
-    border-top: 3px dashed #99771f;
-    padding: .5rem 0;
-    display: inline-block;
-    margin: 3rem;
-    color: #14504b;
+    color:#BFDD3D;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 1rem;
 }
+
+.container-sliders{
+    
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
 
 /* STYLE SLIDE */
 
 .slider{
     width: 45%;
     overflow: hidden;
-    margin: 7rem 2rem;
-    text-align: center;
+    margin: 0 2rem 7rem 2rem;
     transition: all 0.5s;
 }
 
@@ -315,6 +282,35 @@ section .container-card a{
 .slider img{
     width: 100%;
     height: 29rem;
+}
+
+/*SHOP IMAGES*/
+.img-shops{
+    width: 150px;
+    height: 150px;
+}
+
+.container-img-shops{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.card-shop{
+    margin: 3rem;
+}
+
+.much-more{
+    text-align: right;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#BFDD3D;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 7rem;
+    margin-right: 5rem;
 }
 
 @keyframes slide {
