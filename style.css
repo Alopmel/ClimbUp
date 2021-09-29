@@ -319,7 +319,10 @@ a{
 .texts-articles{   
     background-image: linear-gradient(to bottom, #081a27, #092132, #0a283d, #0b2f49, #0d3655);
     text-align: center;
+<<<<<<< HEAD
     border-top: 2px dashed #BFDD3D;
+=======
+>>>>>>> 35cc553f1c16da8afec3a5337261279993abd78e
 }
 
 .p-subtext-articles{
@@ -344,7 +347,11 @@ a{
 .slider{
     width: 45%;
     overflow: hidden;
+<<<<<<< HEAD
     /*margin: 0 2rem 7rem 2rem;*/
+=======
+    margin: 0 2rem 7rem 2rem;
+>>>>>>> 35cc553f1c16da8afec3a5337261279993abd78e
     transition: all 0.5s;
 }
 
@@ -360,6 +367,35 @@ a{
     list-style: none;
 }
 
+
+/*SHOP IMAGES*/
+.img-shops{
+    width: 150px;
+    height: 150px;
+}
+
+.container-img-shops{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.card-shop{
+    margin: 3rem;
+}
+
+.much-more{
+    text-align: right;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#BFDD3D;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 7rem;
+    margin-right: 5rem;
+}
 
 @keyframes slide {
     0%  {margin-left: 0;}
