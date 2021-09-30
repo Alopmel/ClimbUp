@@ -51,6 +51,7 @@ video {
     min-width: 100%;
     min-height: 100%;
     transform: translate(-50%, -50%);
+    background-size: cover;
 }
 
 
@@ -305,13 +306,6 @@ a{
 }
 /* CONTENT ARTICLES */
 
-.container-articles{
-    position: relative;
-    z-index: 2;
-    transform: skew(0,
--2deg);
-}
-
 .container-tittle{
     text-align: center;
 }
@@ -320,6 +314,9 @@ a{
     background-image: linear-gradient(to bottom, #081a27, #092132, #0a283d, #0b2f49, #0d3655);
     text-align: center;
     border-top: 2px dashed #BFDD3D;
+    position: relative;
+    z-index: 2;
+    transform: skew(0,-2deg);
 }
 
 .p-subtext-articles{
@@ -602,7 +599,7 @@ footer{
    margin: 10px 23px 0;   
 }
 
-.h1-footer{
+.h2-footer{
     font-size: 2rem;
     text-align: left;
     color: #BFDD3D;
