@@ -42,7 +42,7 @@ nav{
     border-bottom: 2px dashed #BFDD3D ;
 }
 
-video {    
+.video_background {    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,7 +53,6 @@ video {
     transform: translate(-50%, -50%);
     background-size: cover;
 }
-
 
 .container{
  width: 100%;
@@ -258,7 +257,7 @@ nav ul.activate{
     border-top: 2px dashed #BFDD3D;
 }
 
-.tittles{
+.titles{
     font-size:  30px;
     text-align: center;
     text-transform: uppercase;
@@ -461,6 +460,11 @@ a{
     width: 100%;
 }
 
+.blog-post-img slider{
+    height: 31vh;
+
+}
+
 .blog-post-img{
     min-width: 35rem;
     max-width: 35rem;
@@ -532,6 +536,14 @@ a{
     background-image: linear-gradient(to right, #627024 0%, #BFDD3D 100%);
 }
 
+.video-olympic{
+    transform: skew(0, 2deg);
+}
+
+.games-video{
+    width: 70%;
+    margin-bottom: 7rem
+}
 /* BLOG MEDIA QUERY STYLE*/
 
 @media screen and (max-width: 1068px){
@@ -626,8 +638,8 @@ footer{
 .row2 label{
     font-size: 1.4rem;
     color: #6b6a6a;
-    margin: 0px 2.5rem 3rem;
-    max-width: 140px;
+    margin: 0px 0 3rem 2.5rem;
+    max-width: 123px;
 }
 
 .row label{
@@ -772,9 +784,6 @@ form{
     background-image: linear-gradient(to right, #627024 0%, #BFDD3D 100%);
 }
 
-.text-send{
-    display: none;
-}
 
 
 
