@@ -3,7 +3,7 @@
   
   <p>Climbup is a website where you can discover new climbing sites, personalized sports shops and a blog where you can find information about your favourite hobby.<p>
   
- <img width="300px" src="climUp-responsive.png" alt="responsive design"> 
+ <img width="600px" src="climUp-responsive.png" alt="responsive design"> 
   
   <h2>Features</h2>
   <hr>
