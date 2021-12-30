@@ -50,3 +50,41 @@ This section explains the functionality of the different parts of the page to pr
 
 <img src="assets/img/readme/second-section.png">
   
+
+* **Amazing Shops**
+
+  * In this section, we show you different stores to buy the perfect climbing equipment. The intention is in the future that links to their respective stores will be created and more will be displayed.
+
+  * I'm still keeping the same range of colours and fonts as on the rest of the page.
+
+<img src="assets/img/readme/third-section.png">
+
+* **Share With All** 
+
+  * Here you will find a blog with interesting articles on climbing so that you can learn new tricks, tips or experiences. We will show you articles from other pages or the stories you share with us through the form.
+
+  * The same aesthetics and animation of the title continue to be maintained as in the rest of the page. In this case, the cards do not contain a slide.
+
+<img src="assets/img/readme/fourth-section.png">
+
+  * After the articles we show you a video of the last Olympics, so you will be motivated to start with this sport!
+
+<img src="assets/img/readme/fifth-sectrion.png">
+
+* **Contact**
+
+  * Here you will find a form to contact us in which you must insert your email and a message. You decide if you want to ask us something or if you want to tell us an anecdote to share with the rest of the users in share with all.
+
+  * The logo appears with a transition from the left which is also a link that takes us to the top of the screen.
+
+<img src="assets/img/readme/sixth-section.png" width="500px">
+
+* **Footer**
+
+  * In the footer of the page, you will find a brief description of the page and the links for the different social networks.
+
+  * You will also find our contact information in case you do not want to contact us through the form.
+
+<img src="assets/img/readme/seventh-section.png">
+
+  
