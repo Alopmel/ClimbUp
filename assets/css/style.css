@@ -11,12 +11,6 @@ html{
     font-family: "Roboto Cn", sans-serif;
 }
 
-body{
-    overflow-x: none;
-
-
-}
-
 /*NAVBAR STYLE*/
 
 nav img{
@@ -173,13 +167,13 @@ nav ul li a:hover::after{
    nav{
     flex-direction: column;
     align-items: center;
-    padding-top:25px 0; 
+    padding-top: 25px; 
 }
 
 nav ul{
     background: #081a27;
     flex-direction: column;        
-    align-items: left;
+    align-items: start;
     height: auto;
     margin: 0;
     padding: 0;
@@ -780,11 +774,3 @@ form{
 .button-send:hover{
     background-image: linear-gradient(to right, #627024 0%, #BFDD3D 100%);
 }
-
-
-
-
-
-
-
-
