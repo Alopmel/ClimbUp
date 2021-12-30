@@ -44,9 +44,9 @@ This section explains the functionality of the different parts of the page to pr
 
 * **Find New Places**
 
-  * Finding new places is a section for the user to read articles about rock climbing, climbing walls and different places to practice climbing.
+  * Find new places is a section for the user to read articles about rock climbing, climbing walls and different places to practice climbing.
 
-  * In this case, the articles have a slide that contains different photos related to the article. The button has a floating, gradient animation.
+  * In this case, the articles have a slide that contains different photos related to the article. The button has a gradient and an animation when hovering over it.
 
 <img src="assets/img/readme/second-section.png">
   
