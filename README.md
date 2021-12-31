@@ -87,4 +87,43 @@ This section explains the functionality of the different parts of the page to pr
 
 <img src="assets/img/readme/seventh-section.png">
 
-## 
+## Testing
+  I tested the page on different search engines and it works fine. I also checked that the page adapts to different screen sizes including the mobile version. The images and texts are legible and the use of the page is intuitive and easy to use.
+  
+**Bugs**
+  * I did not find any error to solve
+
+**Validator testing**
+
+  * HTML no error 
+
+<img src="assets/img/readme/validator1.png">
+
+  * CSS no errors when passed Jigsaw
+
+<img src="assets/img/readme/validator2.png">
+
+**Accesibility**
+
+  * The test in the lighthouse was quite good, in the aspect of accessibility he advises me to maintain a better contrast and put more accessible names on the buttons
+ 
+<img src="assets/img/readme/lighthouse.png">
+
+
+**Unfixed bug**
+
+  * No unfixed bugs
+
+## Deployment
+
+I have deployed the project from the Github repository. For that a went to settings section, and after on the Github Pages on the source I select my main branch. Once selected a link is created. Every time the repository is updated so is the link in the link.
+
+# Credits
+
+ **Content**
+ 
+  The content used comes from the different links that I use on the page
+
+**Images**
+
+  All images come from google searches
