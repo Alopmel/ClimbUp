@@ -87,4 +87,4 @@ This section explains the functionality of the different parts of the page to pr
 
 <img src="assets/img/readme/seventh-section.png">
 
-  
+## 

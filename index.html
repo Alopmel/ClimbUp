@@ -39,15 +39,16 @@
 
     <header>
       <div class="section-video">
-       <div class="video-header">
+        <div class="video-header">
           <video  
-            class="video_background" 
-            autoplay
+            class="video_background"
+            preload="autos"
             muted
             loop
           >
             <source src="assets/video/header-video.mp4" type="video/mp4" />                    
-          </video>      
+          </video> 
+        </div>    
       </div>
     </header>
     <!--End header-->
@@ -403,9 +404,8 @@
           <!--Start form -->
           <form
             action="#"
-            method="POST"
+            method="GET"
             class="singUp"
-            onsubmit="return false;"
           >
             <h2 class="h2-footer red">Contact Us</h2>
 
